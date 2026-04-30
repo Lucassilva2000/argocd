@@ -5,8 +5,7 @@ metadata:
   namespace: teste
 spec:
   selector:
-    app: nginx
+    app: nginx-argocd-test
   ports:
     - port: 80
       targetPort: 80
-  type: ClusterIP
